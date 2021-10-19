@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="interface.css">
+    <title>Checkers</title>
+  </head>
+
+  <body>
+    <div id="playerTurnDisplay">TURN</div>
+    <div id="playerErrorDisplay">ERROR</div>
+    <div id="playerWinDisplay">YOU WIN!</div>
+
+    <div id="gameBoardContainer">
+      <!--Line A-->
+      <div id="A-1" onclick="clickHandler(this)"></div>
+      <div id="A-2" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="A-3" onclick="clickHandler(this)"></div>
+      <div id="A-4" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="A-5" onclick="clickHandler(this)"></div>
+      <div id="A-6" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="A-7" onclick="clickHandler(this)"></div>
+      <div id="A-8" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <!--Line B-->
+      <div id="B-1" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="B-2" onclick="clickHandler(this)"></div>
+      <div id="B-3" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="B-4" onclick="clickHandler(this)"></div>
+      <div id="B-5" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="B-6" onclick="clickHandler(this)"></div>
+      <div id="B-7" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="B-8" onclick="clickHandler(this)"></div>
+      <!--Line C-->
+      <div id="C-1" onclick="clickHandler(this)"></div>
+      <div id="C-2" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="C-3" onclick="clickHandler(this)"></div>
+      <div id="C-4" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="C-5" onclick="clickHandler(this)"></div>
+      <div id="C-6" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <div id="C-7" onclick="clickHandler(this)"></div>
+      <div id="C-8" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece team"></div></div>
+      <!--Line D-->
+      <div id="D-1" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="D-2" onclick="clickHandler(this)"></div>
+      <div id="D-3" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="D-4" onclick="clickHandler(this)"></div>
+      <div id="D-5" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="D-6" onclick="clickHandler(this)"></div>
+      <div id="D-7" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="D-8" onclick="clickHandler(this)"></div>
+      <!--Line E-->
+      <div id="E-1" onclick="clickHandler(this)"></div>
+      <div id="E-2" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="E-3" onclick="clickHandler(this)"></div>
+      <div id="E-4" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="E-5" onclick="clickHandler(this)"></div>
+      <div id="E-6" class="otherColor" onclick="clickHandler(this)"></div>
+      <div id="E-7" onclick="clickHandler(this)"></div>
+      <div id="E-8" class="otherColor" onclick="clickHandler(this)"></div>
+      <!--Line F-->
+      <div id="F-1" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="F-2" onclick="clickHandler(this)"></div>
+      <div id="F-3" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="F-4" onclick="clickHandler(this)"></div>
+      <div id="F-5" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="F-6" onclick="clickHandler(this)"></div>
+      <div id="F-7" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="F-8" onclick="clickHandler(this)"></div>
+      <!--Line G-->
+      <div id="G-1" onclick="clickHandler(this)"></div>
+      <div id="G-2" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="G-3" onclick="clickHandler(this)"></div>
+      <div id="G-4" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="G-5" onclick="clickHandler(this)"></div>
+      <div id="G-6" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="G-7" onclick="clickHandler(this)"></div>
+      <div id="G-8" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <!--Line H-->
+      <div id="H-1" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="H-2" onclick="clickHandler(this)"></div>
+      <div id="H-3" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="H-4" onclick="clickHandler(this)"></div>
+      <div id="H-5" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="H-6" onclick="clickHandler(this)"></div>
+      <div id="H-7" class="otherColor" onclick="clickHandler(this)"><div class="gamePiece otherTeam"></div></div>
+      <div id="H-8" onclick="clickHandler(this)"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
